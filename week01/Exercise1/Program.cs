@@ -2,8 +2,14 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
+        Console.Write("Martha");
+        string name = Console.ReadLine();
+
+        Console.Write("25 years ");
+        int age = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Hello {name}, you are {age} years old.");
     }
 }
