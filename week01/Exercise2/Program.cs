@@ -2,8 +2,18 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the Exercise2 Project.");
+        Console.Write("Enter your score: ");
+        int score = int.Parse(Console.ReadLine());
+
+        if (score >= 50)
+        {
+            Console.WriteLine("You passed!");
+        }
+        else
+        {
+            Console.WriteLine("You failed.");
+        }
     }
 }

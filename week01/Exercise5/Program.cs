@@ -2,8 +2,21 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the Exercise5 Project.");
+        Console.Write("Enter first number: ");
+        int num1 = int.Parse(Console.ReadLine());
+
+        Console.Write("Enter second number: ");
+        int num2 = int.Parse(Console.ReadLine());
+
+        int result = AddNumbers(num1, num2);
+
+        Console.WriteLine($"The sum is: {result}");
+    }
+
+    static int AddNumbers(int a, int b)
+    {
+        return a + b;
     }
 }

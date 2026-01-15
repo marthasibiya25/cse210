@@ -1,9 +1,21 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the Exercise4 Project.");
+        List<string> names = new List<string>();
+
+        names.Add("Alice");
+        names.Add("Bob");
+        names.Add("Charlie");
+
+        Console.WriteLine("Names in the list:");
+
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
     }
 }
