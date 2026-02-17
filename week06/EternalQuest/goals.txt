@@ -1,0 +1,2 @@
+1000
+SimpleGoal|Run Marathon|Complete a full marathon|1000|True
